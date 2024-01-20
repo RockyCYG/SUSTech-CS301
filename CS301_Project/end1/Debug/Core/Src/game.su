@@ -1,0 +1,2 @@
+../Core/Src/game.c:12:6:judge	24	static
+../Core/Src/game.c:34:6:print_result	24	static

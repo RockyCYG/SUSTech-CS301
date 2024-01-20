@@ -1,0 +1,6 @@
+../Core/Src/app.c:26:6:screen_clear	8	static
+../Core/Src/app.c:31:6:screen_reprint	112	static
+../Core/Src/app.c:207:6:screen_reprint_6	72	static
+../Core/Src/app.c:225:6:screen_reprint_7	16	static
+../Core/Src/app.c:237:6:app_ui	16	static
+../Core/Src/app.c:286:6:app_touch	96	static

@@ -1,0 +1,8 @@
+../Core/Src/rtc.c:100:4:Is_Leap_Year	0	static
+../Core/Src/rtc.c:177:4:RTC_Alarm_Set	40	static
+../Core/Src/rtc.c:266:4:RTC_Get_Week	12	static
+../Core/Src/rtc.c:211:4:RTC_Get	24	static
+../Core/Src/rtc.c:76:6:RTC_IRQHandler	8	static
+../Core/Src/rtc.c:123:4:RTC_Set	40	static
+../Core/Src/rtc.c:28:4:RTC_Init	32	static
+../Core/Src/rtc.c:282:6:RTC_LCD_ShowWeek	16	static

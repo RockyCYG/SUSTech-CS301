@@ -1,0 +1,6 @@
+../Core/Src/app.c:24:6:screen_clear	1
+../Core/Src/app.c:29:6:screen_reprint	7
+../Core/Src/app.c:111:6:screen_reprint_6	1
+../Core/Src/app.c:129:6:screen_reprint_7	1
+../Core/Src/app.c:141:6:app_ui	9
+../Core/Src/app.c:244:6:app_touch	42

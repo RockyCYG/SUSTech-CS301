@@ -1,0 +1,17 @@
+../Core/Src/stm32f1xx_it.c:80:6:NMI_Handler	0	static
+../Core/Src/stm32f1xx_it.c:95:6:HardFault_Handler	0	static
+../Core/Src/stm32f1xx_it.c:110:6:MemManage_Handler	0	static
+../Core/Src/stm32f1xx_it.c:125:6:BusFault_Handler	0	static
+../Core/Src/stm32f1xx_it.c:140:6:UsageFault_Handler	0	static
+../Core/Src/stm32f1xx_it.c:155:6:SVC_Handler	0	static
+../Core/Src/stm32f1xx_it.c:168:6:DebugMon_Handler	0	static
+../Core/Src/stm32f1xx_it.c:181:6:PendSV_Handler	0	static
+../Core/Src/stm32f1xx_it.c:194:6:SysTick_Handler	0	static
+../Core/Src/stm32f1xx_it.c:215:6:EXTI0_IRQHandler	0	static
+../Core/Src/stm32f1xx_it.c:229:6:EXTI9_5_IRQHandler	0	static
+../Core/Src/stm32f1xx_it.c:243:6:TIM3_IRQHandler	0	static
+../Core/Src/stm32f1xx_it.c:257:6:SPI1_IRQHandler	0	static
+../Core/Src/stm32f1xx_it.c:271:6:USART1_IRQHandler	8	static
+../Core/Src/stm32f1xx_it.c:285:6:EXTI15_10_IRQHandler	0	static
+../Core/Src/stm32f1xx_it.c:300:6:HAL_UART_RxCpltCallback	176	static
+../Core/Src/stm32f1xx_it.c:381:6:HAL_GPIO_EXTI_Callback	16	static

@@ -1,0 +1,9 @@
+../Core/Src/chat.c:20:6:send_ImOnline	64	static
+../Core/Src/chat.c:28:6:send_Invite	72	static
+../Core/Src/chat.c:36:6:send_Accept	72	static
+../Core/Src/chat.c:44:6:send_Reject	72	static
+../Core/Src/chat.c:52:6:send_online	64	static
+../Core/Src/chat.c:60:6:send_offline	64	static
+../Core/Src/chat.c:68:6:handle_message	128	static
+../Core/Src/chat.c:81:6:Pop_up	80	static
+../Core/Src/chat.c:125:6:try_receive_message	24	static

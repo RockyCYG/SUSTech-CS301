@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/project/CS301/Lab4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment1.elf">
+				<Option output="D:/project/CS301/Lab4/cmake-build-debug/Assignment1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/project/CS301/Lab4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/project/CS301/Lab4/Core/Inc"/>
+					<Add directory="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/project/CS301/Lab4/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/project/CS301/Lab4/Drivers/CMSIS/Include"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/arm-none-eabi"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/backward"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/include"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/include-fixed"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/arm-none-eabi"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/backward"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/include"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/include-fixed"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1.elf"/>
+					<CompileFile command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment1.elf/fast">
+				<Option output="D:/project/CS301/Lab4/cmake-build-debug/Assignment1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/project/CS301/Lab4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/project/CS301/Lab4/Core/Inc"/>
+					<Add directory="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/project/CS301/Lab4/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/project/CS301/Lab4/Drivers/CMSIS/Include"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/arm-none-eabi"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/backward"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/include"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/include-fixed"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/arm-none-eabi"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/backward"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/include"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/include-fixed"/>
+					<Add directory="D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/lib/gcc/../../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1.elf/fast"/>
+					<CompileFile command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/project/CS301/Lab4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/project/CS301/Lab4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/project/CS301/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/project/CS301/Lab4/Core/Inc/font.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Inc/gpio.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Inc/lcd.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Inc/main.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Inc/stm32f1xx_it.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Src/gpio.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Src/lcd.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Src/main.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Src/stm32f1xx_it.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Src/syscalls.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Src/sysmem.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Src/system_stm32f1xx.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Core/Startup/startup_stm32f103rctx.s">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/CMSIS/LICENSE.txt">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/STM32F103RCTX_FLASH.ld">
+			<Option target="Assignment1.elf"/>
+		</Unit>
+		<Unit filename="D:/project/CS301/Lab4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

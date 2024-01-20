@@ -1,0 +1,1439 @@
+19:31:18 **** Build of configuration Debug for project Project_test_chinese ****
+make -j20 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103rctx.d" -MT"Core/Startup/startup_stm32f103rctx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103rctx.o" "../Core/Startup/startup_stm32f103rctx.s"
+arm-none-eabi-gcc "../Core/Src/24cxx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/24cxx.d" -MT"Core/Src/24cxx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/24cxx.o"
+arm-none-eabi-gcc "../Core/Src/24l01.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/24l01.d" -MT"Core/Src/24l01.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/24l01.o"
+arm-none-eabi-gcc "../Core/Src/ctiic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ctiic.d" -MT"Core/Src/ctiic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ctiic.o"
+arm-none-eabi-gcc "../Core/Src/delay.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/delay.d" -MT"Core/Src/delay.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/delay.o"
+arm-none-eabi-gcc "../Core/Src/ft5206.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ft5206.d" -MT"Core/Src/ft5206.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ft5206.o"
+../Core/Src/ft5206.c: In function 'FT5206_Init':
+arm-none-eabi-gcc "../Core/Src/gt9147.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gt9147.d" -MT"Core/Src/gt9147.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gt9147.o"
+../Core/Src/ft5206.c:100:17: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  100 |                 printf("CTP ID:%x\r\n",((u16)temp[0]<<8)+temp[1]);
+      |                 ^~~~~~
+../Core/Src/ft5206.c:7:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    6 | #include "string.h"
+  +++ |+#include <stdio.h>
+    7 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/ft5206.c:100:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  100 |                 printf("CTP ID:%x\r\n",((u16)temp[0]<<8)+temp[1]);
+      |                 ^~~~~~
+../Core/Src/ft5206.c:100:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc "../Core/Src/key.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/key.d" -MT"Core/Src/key.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/key.o"
+arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/lcd.o"
+arm-none-eabi-gcc "../Core/Src/led.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/led.d" -MT"Core/Src/led.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/led.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/myiic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myiic.d" -MT"Core/Src/myiic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/myiic.o"
+arm-none-eabi-gcc "../Core/Src/ott2001a.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ott2001a.d" -MT"Core/Src/ott2001a.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ott2001a.o"
+arm-none-eabi-gcc "../Core/Src/remote.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/remote.d" -MT"Core/Src/remote.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/remote.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/sys.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sys.d" -MT"Core/Src/sys.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sys.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../Core/Src/touch.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/touch.d" -MT"Core/Src/touch.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/touch.o"
+../Core/Src/gt9147.c: In function 'GT9147_Init':
+../Core/Src/gt9147.c:147:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  147 |         printf("CTP ID:%s\r\n",temp);           //��ӡID
+      |         ^~~~~~
+../Core/Src/gt9147.c:8:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    7 | #include "lcd.h"
+  +++ |+#include <stdio.h>
+    8 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/gt9147.c:147:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  147 |         printf("CTP ID:%s\r\n",temp);           //��ӡID
+      |         ^~~~~~
+../Core/Src/gt9147.c:147:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/lcd.c: In function 'LCD_Init':
+../Core/Src/lcd.c:700:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  700 |     printf(" LCD ID:%x\r\n", lcddev.id); //��ӡLCD ID
+      |     ^~~~~~
+../Core/Src/lcd.c:6:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    5 | #include "delay.h"
+  +++ |+#include <stdio.h>
+    6 | #include "stm32f1xx_hal.h"
+../Core/Src/lcd.c:700:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  700 |     printf(" LCD ID:%x\r\n", lcddev.id); //��ӡLCD ID
+      |     ^~~~~~
+../Core/Src/lcd.c:700:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/lcd.c: In function 'LCD_ShowImage':
+../Core/Src/lcd.c:2364:23: warning: unused variable 't1' [-Wunused-variable]
+ 2364 |         uint8_t temp, t1, t, k;
+      |                       ^~
+../Core/Src/main.c:44:12: warning: 'STATUS_M' initialized and declared 'extern'
+   44 | extern int STATUS_M = 0;
+      |            ^~~~~~~~
+../Core/Src/main.c:49:12: warning: 'HAS_Q' initialized and declared 'extern'
+   49 | extern int HAS_Q = 0;
+      |            ^~~~~
+../Core/Src/main.c:50:12: warning: 'HAS_A' initialized and declared 'extern'
+   50 | extern int HAS_A = 0;
+      |            ^~~~~
+../Core/Src/main.c:51:12: warning: 'HAS_S' initialized and declared 'extern'
+   51 | extern int HAS_S = 0;
+      |            ^~~~~
+../Core/Src/main.c:63:12: warning: 'TIME_LIMIT' initialized and declared 'extern'
+   63 | extern int TIME_LIMIT = 15;
+      |            ^~~~~~~~~~
+../Core/Src/main.c:64:12: warning: 'COPY_TIME_LIMIT' initialized and declared 'extern'
+   64 | extern int COPY_TIME_LIMIT = 15;
+      |            ^~~~~~~~~~~~~~~
+../Core/Src/main.c:81:12: warning: 'channel' initialized and declared 'extern'
+   81 | extern int channel=40;
+      |            ^~~~~~~
+../Core/Src/main.c: In function 'int_to_char':
+../Core/Src/main.c:125:16: warning: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Wint-conversion]
+  125 |         return num_char;
+      |                ^~~~~~~~
+../Core/Src/main.c: In function 'on':
+../Core/Src/main.c:130:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  130 |         sprintf(header_state, "STATE: ON");
+      |         ^~~~~~~
+../Core/Src/main.c:36:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   35 | #include "remote.h"
+  +++ |+#include <stdio.h>
+   36 | /* USER CODE END Includes */
+../Core/Src/main.c:130:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  130 |         sprintf(header_state, "STATE: ON");
+      |         ^~~~~~~
+../Core/Src/main.c:130:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:130:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  130 |         sprintf(header_state, "STATE: ON");
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 u8 * {aka unsigned char *}
+../Core/Src/main.c:130:17: note: expected 'char *' but argument is of type 'u8 *' {aka 'unsigned char *'}
+../Core/Src/main.c: In function 'off':
+../Core/Src/main.c:134:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  134 |         sprintf(header_state, "STATE: OFF");
+      |         ^~~~~~~
+../Core/Src/main.c:134:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:134:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  134 |         sprintf(header_state, "STATE: OFF");
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 u8 * {aka unsigned char *}
+../Core/Src/main.c:134:17: note: expected 'char *' but argument is of type 'u8 *' {aka 'unsigned char *'}
+../Core/Src/main.c: In function 'error':
+../Core/Src/main.c:138:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  138 |         sprintf(header_state, "STATE: ERROR");
+      |         ^~~~~~~
+../Core/Src/main.c:138:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:138:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  138 |         sprintf(header_state, "STATE: ERROR");
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 u8 * {aka unsigned char *}
+../Core/Src/main.c:138:17: note: expected 'char *' but argument is of type 'u8 *' {aka 'unsigned char *'}
+../Core/Src/main.c: In function 'show_key':
+../Core/Src/main.c:148:46: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  148 |         LCD_ShowString(10, 300, 200, 16, 16, "KEY1: SWITCH CH");
+      |                                              ^~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:149:68: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  149 |         LCD_ShowString(160, 300, 200, 16, 16, STATE==OFF?"KEY0: ON":"KEY0:OFF");
+      |                                               ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+      |                                                                    |
+      |                                                                    char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'set_channel':
+../Core/Src/main.c:154:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  154 |         sprintf(header_channel, "CHANNEL: %u", c);
+      |         ^~~~~~~
+../Core/Src/main.c:154:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:154:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  154 |         sprintf(header_channel, "CHANNEL: %u", c);
+      |                 ^~~~~~~~~~~~~~
+      |                 |
+      |                 u8 * {aka unsigned char *}
+../Core/Src/main.c:154:17: note: expected 'char *' but argument is of type 'u8 *' {aka 'unsigned char *'}
+../Core/Src/main.c: In function 'transmission_function':
+../Core/Src/main.c:180:41: warning: implicit declaration of function 'refresh' [-Wimplicit-function-declaration]
+  180 |                                         refresh();
+      |                                         ^~~~~~~
+../Core/Src/ott2001a.c: In function 'OTT2001A_Init':
+../Core/Src/ott2001a.c:104:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  104 |         printf("CTP ID:%x\r\n",regval);
+      |         ^~~~~~
+../Core/Src/ott2001a.c:6:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    5 | #include "delay.h"
+  +++ |+#include <stdio.h>
+    6 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/ott2001a.c:104:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  104 |         printf("CTP ID:%x\r\n",regval);
+      |         ^~~~~~
+../Core/Src/ott2001a.c:104:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:187:49: warning: implicit declaration of function 'write_msg_to_receive' [-Wimplicit-function-declaration]
+  187 |                                                 write_msg_to_receive(rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/remote.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/remote.c:108:41: warning: implicit declaration of function 'write_result_to_send' [-Wimplicit-function-declaration]
+  108 |                                         write_result_to_send(2);
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:188:49: warning: implicit declaration of function 'write_msg' [-Wimplicit-function-declaration]
+  188 |                                                 write_msg(rev_buf, 1);
+      |                                                 ^~~~~~~~~
+../Core/Src/main.c:190:49: warning: statement with no effect [-Wunused-value]
+  190 |                                                 for(len; rev_buf[len]!=0; len++);
+      |                                                 ^~~
+../Core/Src/main.c:192:49: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  192 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~
+../Core/Src/main.c:192:49: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:193:76: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  193 |                                                 HAL_UART_Transmit(&huart1, re, len+3, 0xffff);
+      |                                                                            ^~
+      |                                                                            |
+      |                                                                            char *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:337,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:725:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  725 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:212:25: warning: implicit declaration of function 'handle_key' [-Wimplicit-function-declaration]
+  212 |                         handle_key();
+      |                         ^~~~~~~~~~
+../Core/Src/main.c: In function 'respondent_transmission_function':
+../Core/Src/main.c:266:49: warning: statement with no effect [-Wunused-value]
+  266 |                                                 for(len; rev_buf[len]!=0; len++);
+      |                                                 ^~~
+../Core/Src/main.c:268:49: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  268 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~
+../Core/Src/main.c:268:49: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:269:76: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  269 |                                                 HAL_UART_Transmit(&huart1, re, len+3, 0xffff);
+      |                                                                            ^~
+      |                                                                            |
+      |                                                                            char *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:337,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:725:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  725 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/remote.c:109:41: warning: implicit declaration of function 'NRF24L01_TX_Mode' [-Wimplicit-function-declaration]
+  109 |                                         NRF24L01_TX_Mode(channel);
+      |                                         ^~~~~~~~~~~~~~~~
+../Core/Src/remote.c:111:41: warning: implicit declaration of function 'NRF24L01_TxPacket' [-Wimplicit-function-declaration]
+  111 |                                         NRF24L01_TxPacket(DATA_TO_SEND);
+      |                                         ^~~~~~~~~~~~~~~~~
+../Core/Src/touch.c:21:1: warning: missing braces around initializer [-Wmissing-braces]
+   21 | {
+      | ^
+......
+   25 |         0,
+      |         {
+......
+   29 |         0,
+      |          }
+   30 |         0,
+      |         {
+......
+   33 | };
+      | }
+../Core/Src/main.c:270:49: warning: implicit declaration of function 'write_result_to_receive' [-Wimplicit-function-declaration]
+  270 |                                                 write_result_to_receive(rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:275:49: warning: statement with no effect [-Wunused-value]
+  275 |                                                 for(len; rev_buf[len]!=0; len++);
+      |                                                 ^~~
+../Core/Src/main.c:277:49: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  277 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~
+../Core/Src/main.c:277:49: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:278:76: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  278 |                                                 HAL_UART_Transmit(&huart1, re, len+3, 0xffff);
+      |                                                                            ^~
+      |                                                                            |
+      |                                                                            char *
+../Core/Src/touch.c:249:29: warning: pointer targets in initialization of 'u8 * const' {aka 'unsigned char * const'} from 'char *' differ in signedness [-Wpointer-sign]
+  249 | u8* const TP_REMIND_MSG_TBL="Please use the stylus click the cross on the screen.The cross will always move until the screen adjustment is completed.";
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/touch.c: In function 'TP_Adj_Info_Show':
+../Core/Src/touch.c:255:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  255 |         LCD_ShowString(40,160,lcddev.width,lcddev.height,16,"x1:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:256:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  256 |         LCD_ShowString(40+80,160,lcddev.width,lcddev.height,16,"y1:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:337,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:725:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  725 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/touch.c:257:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  257 |         LCD_ShowString(40,180,lcddev.width,lcddev.height,16,"x2:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/remote.c:112:41: warning: implicit declaration of function 'NRF24L01_RX_Mode' [-Wimplicit-function-declaration]
+  112 |                                         NRF24L01_RX_Mode(channel);
+      |                                         ^~~~~~~~~~~~~~~~
+../Core/Src/touch.c:258:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  258 |         LCD_ShowString(40+80,180,lcddev.width,lcddev.height,16,"y2:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:259:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  259 |         LCD_ShowString(40,200,lcddev.width,lcddev.height,16,"x3:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/remote.c:113:41: warning: implicit declaration of function 'refresh' [-Wimplicit-function-declaration]
+  113 |                                         refresh();
+      |                                         ^~~~~~~
+../Core/Src/touch.c:260:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  260 |         LCD_ShowString(40+80,200,lcddev.width,lcddev.height,16,"y3:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:261:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  261 |         LCD_ShowString(40,220,lcddev.width,lcddev.height,16,"x4:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:262:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  262 |         LCD_ShowString(40+80,220,lcddev.width,lcddev.height,16,"y4:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+../Core/Src/main.c:279:49: warning: implicit declaration of function 'write_question_to_receive' [-Wimplicit-function-declaration]
+  279 |                                                 write_question_to_receive(rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:280:49: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  280 |                                                 memset(rev_buf,0,sizeof(rev_buf));
+      |                                                 ^~~~~~
+../Core/Src/remote.c:115:41: warning: implicit declaration of function 'show_error' [-Wimplicit-function-declaration]
+  115 |                                         show_error(3);
+      |                                         ^~~~~~~~~~
+../Core/Src/main.c:36:1: note: include '<string.h>' or provide a declaration of 'memset'
+   35 | #include "remote.h"
+  +++ |+#include <string.h>
+   36 | /* USER CODE END Includes */
+../Core/Src/touch.c:263:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  263 |         LCD_ShowString(40,240,lcddev.width,lcddev.height,16,"fac is:");
+      |                                                             ^~~~~~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:280:49: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  280 |                                                 memset(rev_buf,0,sizeof(rev_buf));
+      |                                                 ^~~~~~
+../Core/Src/main.c:280:49: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:285:49: warning: statement with no effect [-Wunused-value]
+  285 |                                                 for(len; rev_buf[len]!=0; len++);
+      |                                                 ^~~
+../Core/Src/touch.c: In function 'TP_Adjust':
+../Core/Src/touch.c:397:100: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  397 |                                                 LCD_ShowString(40,26,lcddev.width,lcddev.height,16,"TP Need readjust!");
+      |                                                                                                    ^~~~~~~~~~~~~~~~~~~
+      |                                                                                                    |
+      |                                                                                                    char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:412:93: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  412 |                                         LCD_ShowString(35,110,lcddev.width,lcddev.height,16,"Touch Screen Adjust OK!");//У�����
+      |                                                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                             |
+      |                                                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:287:49: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  287 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~
+../Core/Src/main.c:287:49: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:288:76: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  288 |                                                 HAL_UART_Transmit(&huart1, re, len+3, 0xffff);
+      |                                                                            ^~
+      |                                                                            |
+      |                                                                            char *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:337,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:725:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  725 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:294:49: warning: statement with no effect [-Wunused-value]
+  294 |                                                 for(len; rev_buf[len]!=0; len++);
+      |                                                 ^~~
+../Core/Src/main.c:296:49: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  296 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~
+../Core/Src/main.c:296:49: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:297:76: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  297 |                                                 HAL_UART_Transmit(&huart1, re, len+3, 0xffff);
+      |                                                                            ^~
+      |                                                                            |
+      |                                                                            char *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:337,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:725:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  725 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:300:57: warning: implicit declaration of function 'show_user_next_choice_view' [-Wimplicit-function-declaration]
+  300 |                                                         show_user_next_choice_view(0);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:348:6: warning: conflicting types for 'write_msg_to_receive'; have 'void(u8 *)' {aka 'void(unsigned char *)'}
+  348 | void write_msg_to_receive(u8* msg){
+      |      ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:187:49: note: previous implicit declaration of 'write_msg_to_receive' with type 'void(u8 *)' {aka 'void(unsigned char *)'}
+  187 |                                                 write_msg_to_receive(rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'write_msg_to_receive':
+../Core/Src/main.c:351:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  351 |         memset(RECEIVE_ANSWER,0,sizeof(RECEIVE_ANSWER));
+      |         ^~~~~~
+../Core/Src/main.c:351:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:360:6: warning: conflicting types for 'write_question_to_receive'; have 'void(u8 *)' {aka 'void(unsigned char *)'}
+  360 | void write_question_to_receive(u8* msg){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:279:49: note: previous implicit declaration of 'write_question_to_receive' with type 'void(u8 *)' {aka 'void(unsigned char *)'}
+  279 |                                                 write_question_to_receive(rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'write_question_to_receive':
+../Core/Src/main.c:363:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  363 |         memset(RECEIVE_QUESTION,0,sizeof(RECEIVE_QUESTION));
+      |         ^~~~~~
+../Core/Src/main.c:363:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:419:66: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  419 |                 HAL_UART_Transmit(&huart1, (uint8_t*)time_limit, strlen(time_limit), HAL_MAX_DELAY);
+      |                                                                  ^~~~~~
+../Core/Src/main.c:419:66: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:419:66: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+../Core/Src/main.c:419:66: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:419:73: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  419 |                 HAL_UART_Transmit(&huart1, (uint8_t*)time_limit, strlen(time_limit), HAL_MAX_DELAY);
+      |                                                                         ^~~~~~~~~~
+      |                                                                         |
+      |                                                                         unsigned char *
+../Core/Src/main.c:419:73: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:420:35: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+  420 |                 TIME_LIMIT = atoi(time_limit);
+      |                                   ^~~~~~~~~~
+      |                                   |
+      |                                   unsigned char *
+In file included from ../Core/Inc/lcd.h:4,
+                 from ../Core/Src/main.c:30:
+D:\software\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/stdlib.h:81:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+   81 | int     atoi (const char *__nptr);
+      |               ~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:430:6: warning: conflicting types for 'write_result_to_receive'; have 'void(u8 *)' {aka 'void(unsigned char *)'}
+  430 | void write_result_to_receive(u8* msg){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:270:49: note: previous implicit declaration of 'write_result_to_receive' with type 'void(u8 *)' {aka 'void(unsigned char *)'}
+  270 |                                                 write_result_to_receive(rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'write_result_to_receive':
+../Core/Src/main.c:436:23: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  436 |         for(int i=3;i<strlen(msg);i++){
+      |                       ^~~~~~
+../Core/Src/main.c:436:23: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:436:30: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  436 |         for(int i=3;i<strlen(msg);i++){
+      |                              ^~~
+      |                              |
+      |                              u8 * {aka unsigned char *}
+../Core/Src/main.c:436:30: note: expected 'const char *' but argument is of type 'u8 *' {aka 'unsigned char *'}
+../Core/Src/main.c:439:27: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+  439 |         USER_SCORE = atoi(user_score);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+In file included from ../Core/Inc/lcd.h:4,
+                 from ../Core/Src/main.c:30:
+D:\software\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/stdlib.h:81:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+   81 | int     atoi (const char *__nptr);
+      |               ~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c:431:12: warning: unused variable 'i' [-Wunused-variable]
+  431 |         u8 i=0;
+      |            ^
+../Core/Src/main.c: In function 'write_msg_to_send':
+../Core/Src/main.c:446:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  446 |         memset(DATA_TO_SEND,0,sizeof(DATA_TO_SEND));
+      |         ^~~~~~
+../Core/Src/main.c:446:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:472:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  472 |         sprintf(num_char, "%d", TIME_LIMIT);
+      |         ^~~~~~~
+../Core/Src/main.c:472:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:472:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  472 |         sprintf(num_char, "%d", TIME_LIMIT);
+      |                 ^~~~~~~~
+      |                 |
+      |                 unsigned char *
+../Core/Src/main.c:472:17: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:473:23: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  473 |         for(int i=0;i<strlen(num_char);i++){
+      |                       ^~~~~~
+../Core/Src/main.c:473:23: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:473:30: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  473 |         for(int i=0;i<strlen(num_char);i++){
+      |                              ^~~~~~~~
+      |                              |
+      |                              unsigned char *
+../Core/Src/main.c:473:30: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c: In function 'write_answer_to_send':
+../Core/Src/main.c:483:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  483 |         memset(DATA_TO_SEND,0,sizeof(DATA_TO_SEND));
+      |         ^~~~~~
+../Core/Src/main.c:483:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: In function 'write_result_to_send':
+../Core/Src/main.c:495:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  495 |         memset(DATA_TO_SEND,0,sizeof(DATA_TO_SEND));
+      |         ^~~~~~
+../Core/Src/main.c:495:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:496:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  496 |         sprintf(DATA_TO_SEND, "^%d^%d", num, USER_SCORE);
+      |         ^~~~~~~
+../Core/Src/main.c:496:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:496:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  496 |         sprintf(DATA_TO_SEND, "^%d^%d", num, USER_SCORE);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 unsigned char *
+../Core/Src/main.c:496:17: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:496:34: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  496 |         sprintf(DATA_TO_SEND, "^%d^%d", num, USER_SCORE);
+      |                                 ~^      ~~~
+      |                                  |      |
+      |                                  int    u32 {aka long unsigned int}
+      |                                 %ld
+../Core/Src/main.c: In function 'write_judge_result_to_send':
+../Core/Src/main.c:505:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  505 |         memset(DATA_TO_SEND,0,sizeof(DATA_TO_SEND));
+      |         ^~~~~~
+../Core/Src/main.c:505:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:513:6: warning: conflicting types for 'handle_key'; have 'void()'
+  513 | void handle_key(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:212:25: note: previous implicit declaration of 'handle_key' with type 'void()'
+  212 |                         handle_key();
+      |                         ^~~~~~~~~~
+../Core/Src/main.c: In function 'Load_Drow_Dialog':
+../Core/Src/main.c:529:52: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  529 |         LCD_ShowString(lcddev.width-24,0,200,16,16,"RST");//显示清屏区域
+      |                                                    ^~~~~
+      |                                                    |
+      |                                                    char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:530:67: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  530 |         LCD_ShowString(lcddev.width-32,lcddev.height-20,200,16,16,"SEND");//显示发�?�区�?????
+      |                                                                   ^~~~~~
+      |                                                                   |
+      |                                                                   char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:531:40: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  531 |         LCD_ShowString(30,40,200,24,24,"Input Question");
+      |                                        ^~~~~~~~~~~~~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:536:48: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  536 |                 LCD_ShowString(30,80,185,16,16,"Now user is inputing question");
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                |
+      |                                                char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:539:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  539 |                 LCD_ShowString(30,100,185,16,16, "No Question");
+      |                                                  ^~~~~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:544:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  544 |                 LCD_ShowString(30,140,185,16,16, "No Answer");
+      |                                                  ^~~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:549:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  549 |                 LCD_ShowString(30,180,185,16,16, "No Score");
+      |                                                  ^~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:553:42: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  553 |         LCD_ShowString(30,220,200,16,16, "Time Limit");
+      |                                          ^~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_judge':
+../Core/Src/main.c:568:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  568 |         sprintf(msg, "User Score = %d", USER_SCORE);
+      |         ^~~~~~~
+../Core/Src/main.c:568:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:568:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  568 |         sprintf(msg, "User Score = %d", USER_SCORE);
+      |                 ^~~
+      |                 |
+      |                 unsigned char *
+../Core/Src/main.c:568:17: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:574:42: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  574 |         LCD_ShowString(30,100,200,24,24, "Next Question");
+      |                                          ^~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:575:42: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  575 |         LCD_ShowString(30,160,200,24,24, "End Game");
+      |                                          ^~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_end_questioner':
+../Core/Src/main.c:582:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  582 |         sprintf(msg, "User Score = %d", USER_SCORE);
+      |         ^~~~~~~
+../Core/Src/main.c:582:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:582:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  582 |         sprintf(msg, "User Score = %d", USER_SCORE);
+      |                 ^~~
+      |                 |
+      |                 unsigned char *
+../Core/Src/main.c:582:17: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:584:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  584 |         LCD_ShowString(30,70,200,24,24, "GAME END");
+      |                                         ^~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'input_judge':
+../Core/Src/main.c:598:17: warning: implicit declaration of function 'Reset_Load' [-Wimplicit-function-declaration]
+  598 |                 Reset_Load();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c:604:68: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  604 |                 HAL_UART_Transmit(&huart1, (uint8_t*)DATA_TO_SEND, strlen(DATA_TO_SEND), HAL_MAX_DELAY);
+      |                                                                    ^~~~~~
+../Core/Src/main.c:604:68: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:604:75: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  604 |                 HAL_UART_Transmit(&huart1, (uint8_t*)DATA_TO_SEND, strlen(DATA_TO_SEND), HAL_MAX_DELAY);
+      |                                                                           ^~~~~~~~~~~~
+      |                                                                           |
+      |                                                                           unsigned char *
+../Core/Src/main.c:604:75: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c: In function 'show_error':
+../Core/Src/main.c:621:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  621 |                 LCD_ShowString(20,50,200,24,24, "NO QUESTION");
+      |                                                 ^~~~~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:627:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  627 |                 LCD_ShowString(20,50,200,24,24, "CONNECT FAIL");
+      |                                                 ^~~~~~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:631:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  631 |                 LCD_ShowString(20,50,200,24,24, "TIME OUT");
+      |                                                 ^~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:635:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  635 |                 LCD_ShowString(20,50,200,24,24, "NO ANSWER");
+      |                                                 ^~~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:641:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  641 |                 LCD_ShowString(20,50,200,24,24, "NO SCORE");
+      |                                                 ^~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:647:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  647 |                 LCD_ShowString(20,50,200,24,24, "INVALID SCORE");
+      |                                                 ^~~~~~~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_waiting_answer':
+../Core/Src/main.c:658:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  658 |         LCD_ShowString(30,20,200,16,16, "Time Limit");
+      |                                         ^~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:662:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  662 |                 LCD_ShowString(30,80,185,16,16, "No Receive Answer");
+      |                                                 ^~~~~~~~~~~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:666:46: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  666 |         LCD_ShowString(30, 180, 200, 16, 16, "Wrong");
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:667:46: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  667 |         LCD_ShowString(30, 240, 200, 16, 16, "Right");
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'handle_waiting_answer':
+../Core/Src/main.c:685:17: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  685 |                 memset(RECEIVE_ANSWER,0,sizeof(RECEIVE_ANSWER));
+      |                 ^~~~~~
+../Core/Src/main.c:685:17: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:695:17: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  695 |                 memset(RECEIVE_ANSWER,0,sizeof(RECEIVE_ANSWER));
+      |                 ^~~~~~
+../Core/Src/main.c:695:17: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:706:6: warning: conflicting types for 'Reset_Load'; have 'void(void)'
+  706 | void Reset_Load(void)
+      |      ^~~~~~~~~~
+../Core/Src/main.c:598:17: note: previous implicit declaration of 'Reset_Load' with type 'void(void)'
+  598 |                 Reset_Load();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'Reset_Load':
+../Core/Src/main.c:714:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  714 |         memset(QUESTION,0,sizeof(QUESTION));
+      |         ^~~~~~
+../Core/Src/main.c:714:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: In function 'Send_Reset':
+../Core/Src/main.c:728:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  728 |         memset(QUESTION,0,sizeof(QUESTION));
+      |         ^~~~~~
+../Core/Src/main.c:728:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:734:6: warning: conflicting types for 'refresh'; have 'void(void)'
+  734 | void refresh(void)
+      |      ^~~~~~~
+../Core/Src/main.c:180:41: note: previous implicit declaration of 'refresh' with type 'void(void)'
+  180 |                                         refresh();
+      |                                         ^~~~~~~
+../Core/Src/main.c: In function 'show_time_limit':
+../Core/Src/main.c:748:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  748 |         sprintf(msg, "Current Time Limit = %d", TIME_LIMIT);
+      |         ^~~~~~~
+../Core/Src/main.c:748:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:748:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  748 |         sprintf(msg, "Current Time Limit = %d", TIME_LIMIT);
+      |                 ^~~
+      |                 |
+      |                 unsigned char *
+../Core/Src/main.c:748:17: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:749:51: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  749 |         HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                   ^~~~~~
+../Core/Src/main.c:749:51: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:749:58: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  749 |         HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                          ^~~
+      |                                                          |
+      |                                                          unsigned char *
+../Core/Src/main.c:749:58: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:751:46: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  751 |         LCD_ShowString(30, 180, 200, 16, 16, "reset");
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:752:46: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  752 |         LCD_ShowString(30, 240, 200, 16, 16, "confirm");
+      |                                              ^~~~~~~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_two_type_question':
+../Core/Src/main.c:775:40: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  775 |         LCD_ShowString(30,30,200,24,24,"Choice Question");
+      |                                        ^~~~~~~~~~~~~~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:776:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  776 |         LCD_ShowString(30,100,200,24,24,"Text Question");
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_question_input_view':
+../Core/Src/main.c:799:46: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  799 |         LCD_ShowString(30, 180, 200, 16, 16, "reset");
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:800:46: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  800 |         LCD_ShowString(30, 240, 200, 16, 16, "confirm");
+      |                                              ^~~~~~~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:804:25: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  804 |                         sprintf(msg, "No Question");
+      |                         ^~~~~~~
+../Core/Src/main.c:804:25: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:804:33: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  804 |                         sprintf(msg, "No Question");
+      |                                 ^~~
+      |                                 |
+      |                                 unsigned char *
+../Core/Src/main.c:804:33: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:813:25: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  813 |                         sprintf(msg, "No Answer");
+      |                         ^~~~~~~
+../Core/Src/main.c:813:25: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:813:33: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  813 |                         sprintf(msg, "No Answer");
+      |                                 ^~~
+      |                                 |
+      |                                 unsigned char *
+../Core/Src/main.c:813:33: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:821:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  821 |                         LCD_ShowString(30, 70, 200, 16, 16, "True");
+      |                                                             ^~~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:822:62: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  822 |                         LCD_ShowString(30, 110, 200, 16, 16, "False");
+      |                                                              ^~~~~~~
+      |                                                              |
+      |                                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:827:33: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  827 |                                 sprintf(msg, "No Score");
+      |                                 ^~~~~~~
+../Core/Src/main.c:827:33: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:827:41: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  827 |                                 sprintf(msg, "No Score");
+      |                                         ^~~
+      |                                         |
+      |                                         unsigned char *
+../Core/Src/main.c:827:41: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c: In function 'input_question_info':
+../Core/Src/main.c:846:25: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  846 |                         memset(QUESTION,0,sizeof(QUESTION));
+      |                         ^~~~~~
+../Core/Src/main.c:846:25: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:849:25: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  849 |                         memset(ANSWER,0,sizeof(ANSWER));
+      |                         ^~~~~~
+../Core/Src/main.c:849:25: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:853:25: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  853 |                         memset(SCORE,0,sizeof(SCORE));
+      |                         ^~~~~~
+../Core/Src/main.c:853:25: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:888:33: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  888 |                                 sprintf(ANSWER, "True");
+      |                                 ^~~~~~~
+../Core/Src/main.c:888:33: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:888:41: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  888 |                                 sprintf(ANSWER, "True");
+      |                                         ^~~~~~
+      |                                         |
+      |                                         unsigned char *
+../Core/Src/main.c:888:41: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:895:33: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  895 |                                 sprintf(ANSWER, "False");
+      |                                 ^~~~~~~
+../Core/Src/main.c:895:33: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:895:41: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  895 |                                 sprintf(ANSWER, "False");
+      |                                         ^~~~~~
+      |                                         |
+      |                                         unsigned char *
+../Core/Src/main.c:895:41: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c: In function 'rtp_test':
+../Core/Src/main.c:1065:49: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 1065 |                                                 sprintf(msg, "reset", tp_dev.x[0], tp_dev.y[0]);
+      |                                                 ^~~~~~~
+../Core/Src/main.c:1065:49: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:1065:57: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+ 1065 |                                                 sprintf(msg, "reset", tp_dev.x[0], tp_dev.y[0]);
+      |                                                         ^~~
+      |                                                         |
+      |                                                         unsigned char *
+../Core/Src/main.c:1065:57: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:1065:62: warning: too many arguments for format [-Wformat-extra-args]
+ 1065 |                                                 sprintf(msg, "reset", tp_dev.x[0], tp_dev.y[0]);
+      |                                                              ^~~~~~~
+../Core/Src/main.c:1066:91: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+ 1066 |                                                 HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                                                           ^~~~~~
+../Core/Src/main.c:1066:91: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:1066:98: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+ 1066 |                                                 HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                                                                  ^~~
+      |                                                                                                  |
+      |                                                                                                  unsigned char *
+../Core/Src/main.c:1066:98: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:1102:49: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 1102 |                                                 sprintf(msg, "Change Voltage = %d  %d\r\n", tp_dev.x[0], tp_dev.y[0]);
+      |                                                 ^~~~~~~
+../Core/Src/main.c:1102:49: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:1102:57: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+ 1102 |                                                 sprintf(msg, "Change Voltage = %d  %d\r\n", tp_dev.x[0], tp_dev.y[0]);
+      |                                                         ^~~
+      |                                                         |
+      |                                                         unsigned char *
+../Core/Src/main.c:1102:57: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:1104:91: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+ 1104 |                                                 HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                                                           ^~~~~~
+../Core/Src/main.c:1104:91: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:1104:98: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+ 1104 |                                                 HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                                                                  ^~~
+      |                                                                                                  |
+      |                                                                                                  unsigned char *
+../Core/Src/main.c:1104:98: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c: In function 'show_choose_role':
+../Core/Src/main.c:1137:45: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1137 |         LCD_ShowString(50, 50, 200, 24, 24, "Questioner");
+      |                                             ^~~~~~~~~~~~
+      |                                             |
+      |                                             char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1138:46: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1138 |         LCD_ShowString(50, 150, 200, 24, 24, "Respondent");
+      |                                              ^~~~~~~~~~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_waiting_status':
+../Core/Src/main.c:1177:45: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1177 |         LCD_ShowString(60, 50, 200, 24, 24, " WAITING");
+      |                                             ^~~~~~~~~~
+      |                                             |
+      |                                             char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1178:45: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1178 |         LCD_ShowString(60, 90, 200, 24, 24, "QUESTION");
+      |                                             ^~~~~~~~~~
+      |                                             |
+      |                                             char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_question_answer_view':
+../Core/Src/main.c:1184:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1184 |         LCD_ShowString(40,30,185,24,24, "Answering");
+      |                                         ^~~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1187:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1187 |                 LCD_ShowString(30,100,185,16,16, "Choice Question");
+      |                                                  ^~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1189:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1189 |                 LCD_ShowString(30,100,185,16,16, "Text Question");
+      |                                                  ^~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1194:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1194 |                 LCD_ShowString(30,140,185,16,16, "No Answer");
+      |                                                  ^~~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1199:42: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1199 |         LCD_ShowString(30,220,200,16,16, "Time Limit");
+      |                                          ^~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1201:67: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1201 |         LCD_ShowString(lcddev.width-32,lcddev.height-20,200,16,16,"SEND");//显示发�?�区�?????
+      |                                                                   ^~~~~~
+      |                                                                   |
+      |                                                                   char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1202:53: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1202 |         LCD_ShowString(0,lcddev.height-20,200,16,16,"RST");//清除输入答案
+      |                                                     ^~~~~
+      |                                                     |
+      |                                                     char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'wait_result_view':
+../Core/Src/main.c:1208:45: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1208 |         LCD_ShowString(60, 50, 200, 24, 24, "  WAITING");
+      |                                             ^~~~~~~~~~~
+      |                                             |
+      |                                             char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1209:45: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1209 |         LCD_ShowString(60, 90, 200, 24, 24, "  RESULT");
+      |                                             ^~~~~~~~~~
+      |                                             |
+      |                                             char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_result_view':
+../Core/Src/main.c:1216:54: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1216 |                 LCD_ShowString(60, 120, 200, 24, 24, "  RIGHT");
+      |                                                      ^~~~~~~~~
+      |                                                      |
+      |                                                      char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1219:54: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1219 |                 LCD_ShowString(60, 120, 200, 24, 24, "TIME OUT");
+      |                                                      ^~~~~~~~~~
+      |                                                      |
+      |                                                      char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1222:54: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1222 |                 LCD_ShowString(60, 120, 200, 24, 24, "  WRONG");
+      |                                                      ^~~~~~~~~
+      |                                                      |
+      |                                                      char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1225:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+ 1225 |         memset(ANSWER,0,sizeof(ANSWER));
+      |         ^~~~~~
+../Core/Src/main.c:1225:9: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: In function 'show_judge_view':
+../Core/Src/main.c:1243:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 1243 |         sprintf(msg, "User Score = %d", USER_SCORE);
+      |         ^~~~~~~
+../Core/Src/main.c:1243:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:1243:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+ 1243 |         sprintf(msg, "User Score = %d", USER_SCORE);
+      |                 ^~~
+      |                 |
+      |                 unsigned char *
+../Core/Src/main.c:1243:17: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:1244:42: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1244 |         LCD_ShowString(20,100,200,24,24, "WAIT USER CHOICE");
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'show_end_rec_view':
+../Core/Src/main.c:1252:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 1252 |         sprintf(msg, "User Score = %d", USER_SCORE);
+      |         ^~~~~~~
+../Core/Src/main.c:1252:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:1252:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+ 1252 |         sprintf(msg, "User Score = %d", USER_SCORE);
+      |                 ^~~
+      |                 |
+      |                 unsigned char *
+../Core/Src/main.c:1252:17: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:1254:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1254 |         LCD_ShowString(30,70,200,24,24, "GAME END");
+      |                                         ^~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:1258:6: warning: conflicting types for 'show_user_next_choice_view'; have 'void(u32)' {aka 'void(long unsigned int)'}
+ 1258 | void show_user_next_choice_view(u32 num){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:300:57: note: previous implicit declaration of 'show_user_next_choice_view' with type 'void(u32)' {aka 'void(long unsigned int)'}
+  300 |                                                         show_user_next_choice_view(0);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'show_user_next_choice_view':
+../Core/Src/main.c:1261:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1261 |                 LCD_ShowString(20,100,200,24,24, "NEXT QUESTION");
+      |                                                  ^~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1263:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1263 |                 LCD_ShowString(20,100,200,24,24, "END GAME");
+      |                                                  ^~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'respondent_main':
+../Core/Src/main.c:1313:100: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+ 1313 |                                                 HAL_UART_Transmit(&huart1, (uint8_t*)DATA_TO_SEND, strlen(DATA_TO_SEND), HAL_MAX_DELAY);
+      |                                                                                                    ^~~~~~
+../Core/Src/main.c:1313:100: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:1313:107: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+ 1313 |                                                 HAL_UART_Transmit(&huart1, (uint8_t*)DATA_TO_SEND, strlen(DATA_TO_SEND), HAL_MAX_DELAY);
+      |                                                                                                           ^~~~~~~~~~~~
+      |                                                                                                           |
+      |                                                                                                           unsigned char *
+../Core/Src/main.c:1313:107: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:1322:41: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+ 1322 |                                         memset(ANSWER,0,sizeof(ANSWER));
+      |                                         ^~~~~~
+../Core/Src/main.c:1322:41: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:1385:40: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1385 |         LCD_ShowString(30,50,200,16,16,"Mini STM32");
+      |                                        ^~~~~~~~~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1386:40: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1386 |         LCD_ShowString(30,70,200,16,16,"TOUCH TEST");
+      |                                        ^~~~~~~~~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1387:40: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1387 |         LCD_ShowString(30,90,200,16,16,"ATOM@ALIENTEK");
+      |                                        ^~~~~~~~~~~~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1388:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1388 |         LCD_ShowString(30,110,200,16,16,"2019/11/15");
+      |                                         ^~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1391:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1391 |                 LCD_ShowString(30,130,200,16,16,"Press KEY0 to Adjust");//电阻屏才显示
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:1399:53: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 1399 |                 LCD_ShowString(30, 70, 200, 16, 16, "NRF24L01 STATUS: Error");
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                     |
+      |                                                     char *
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:1621:62: warning: pointer targets in passing argument 1 of 'check_is_number' differ in signedness [-Wpointer-sign]
+ 1621 |                                 int is_num = check_is_number(uRx_Data);
+      |                                                              ^~~~~~~~
+      |                                                              |
+      |                                                              unsigned char *
+../Core/Src/main.c:1597:27: note: expected 'char *' but argument is of type 'unsigned char *'
+ 1597 | int check_is_number(char* array0){
+      |                     ~~~~~~^~~~~~
+../Core/Src/main.c:1643:53: warning: pointer targets in passing argument 1 of 'char_to_int' differ in signedness [-Wpointer-sign]
+ 1643 |                                         char_to_int(SCORE);
+      |                                                     ^~~~~
+      |                                                     |
+      |                                                     unsigned char *
+../Core/Src/main.c:1590:24: note: expected 'char *' but argument is of type 'unsigned char *'
+ 1590 | void char_to_int(char* array0){
+      |                  ~~~~~~^~~~~~
+../Core/Src/main.c:1647:33: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 1647 |                                 sprintf(msg1, "CURRENT_SCORE = %d\r\n", CURRENT_SCORE);
+      |                                 ^~~~~~~
+../Core/Src/main.c:1647:33: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:1647:41: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+ 1647 |                                 sprintf(msg1, "CURRENT_SCORE = %d\r\n", CURRENT_SCORE);
+      |                                         ^~~~
+      |                                         |
+      |                                         unsigned char *
+../Core/Src/main.c:1647:41: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:1648:76: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+ 1648 |                                 HAL_UART_Transmit(&huart1, (uint8_t*)msg1, strlen(msg1), HAL_MAX_DELAY);
+      |                                                                            ^~~~~~
+../Core/Src/main.c:1648:76: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:1648:83: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+ 1648 |                                 HAL_UART_Transmit(&huart1, (uint8_t*)msg1, strlen(msg1), HAL_MAX_DELAY);
+      |                                                                                   ^~~~
+      |                                                                                   |
+      |                                                                                   unsigned char *
+../Core/Src/main.c:1648:83: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:1707:6: warning: conflicting types for 'write_msg'; have 'void(u8 *, u8)' {aka 'void(unsigned char *, unsigned char)'}
+ 1707 | void write_msg(u8* msg, u8 sdr){
+      |      ^~~~~~~~~
+../Core/Src/main.c:188:49: note: previous implicit declaration of 'write_msg' with type 'void(u8 *, u8)' {aka 'void(unsigned char *, unsigned char)'}
+  188 |                                                 write_msg(rev_buf, 1);
+      |                                                 ^~~~~~~~~
+../Core/Src/main.c: In function 'transmission_function':
+../Core/Src/main.c:192:64: warning: '%s' directive writing up to 1023 bytes into a region of size 126 [-Wformat-overflow=]
+  192 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                                ^~     ~~~~~~~
+../Core/Src/main.c:192:49: note: 'sprintf' output between 4 and 1027 bytes into a destination of size 128
+  192 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'respondent_transmission_function':
+../Core/Src/main.c:268:64: warning: '%s' directive writing up to 1023 bytes into a region of size 126 [-Wformat-overflow=]
+  268 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                                ^~     ~~~~~~~
+../Core/Src/main.c:268:49: note: 'sprintf' output between 4 and 1027 bytes into a destination of size 128
+  268 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:277:64: warning: '%s' directive writing up to 1023 bytes into a region of size 126 [-Wformat-overflow=]
+  277 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                                ^~     ~~~~~~~
+../Core/Src/main.c:277:49: note: 'sprintf' output between 4 and 1027 bytes into a destination of size 128
+  277 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:287:64: warning: '%s' directive writing up to 1023 bytes into a region of size 126 [-Wformat-overflow=]
+  287 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                                ^~     ~~~~~~~
+../Core/Src/main.c:287:49: note: 'sprintf' output between 4 and 1027 bytes into a destination of size 128
+  287 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:296:64: warning: '%s' directive writing up to 1023 bytes into a region of size 126 [-Wformat-overflow=]
+  296 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                                ^~     ~~~~~~~
+../Core/Src/main.c:296:49: note: 'sprintf' output between 4 and 1027 bytes into a destination of size 128
+  296 |                                                 sprintf(re, ">>%s\n", rev_buf);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'int_to_char':
+../Core/Src/main.c:124:20: warning: 'num_char' is used uninitialized [-Wuninitialized]
+  124 |         num_char = itoa(num, num_char, 10);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Project_test_chinese.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\lenovo\Desktop\Project_test_chinese\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Project_test_chinese.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/remote.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/remote.c:17: multiple definition of `STATUS_M'; ./Core/Src/main.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/main.c:44: first defined here
+D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/remote.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/remote.c:18: multiple definition of `TIME_LIMIT'; ./Core/Src/main.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/main.c:63: first defined here
+D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/remote.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/remote.c:19: multiple definition of `COPY_TIME_LIMIT'; ./Core/Src/main.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/main.c:64: first defined here
+D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/remote.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/remote.c:20: multiple definition of `channel'; ./Core/Src/main.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/main.c:81: first defined here
+D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/remote.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/remote.c:22: multiple definition of `HAS_A'; ./Core/Src/main.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/main.c:50: first defined here
+D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/remote.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/remote.c:23: multiple definition of `HAS_S'; ./Core/Src/main.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/main.c:51: first defined here
+D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/remote.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/remote.c:24: multiple definition of `HAS_Q'; ./Core/Src/main.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/main.c:49: first defined here
+D:/software/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32f1xx_it.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/stm32f1xx_it.c:55: multiple definition of `rxBuffer'; ./Core/Src/main.o:C:/Users/lenovo/Desktop/Project_test_chinese/Debug/../Core/Src/main.c:65: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:67: Project_test_chinese.elf] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+
+19:31:21 Build Failed. 9 errors, 212 warnings. (took 2s.933ms)
+

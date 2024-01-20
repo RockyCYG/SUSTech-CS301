@@ -1,0 +1,10 @@
+10:55:41 **** Incremental Build of configuration Debug for project CS301_Project ****
+make -j20 all 
+arm-none-eabi-size   CS301_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+  55352	    344	   3160	  58856	   e5e8	CS301_Project.elf
+Finished building: default.size.stdout
+ 
+
+10:55:41 Build Finished. 0 errors, 0 warnings. (took 300ms)
+

@@ -1,0 +1,3 @@
+D:/project/CS301/demo_for_screen/cmake-build-debug/CMakeFiles/demo_for_screen.elf.dir
+D:/project/CS301/demo_for_screen/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/project/CS301/demo_for_screen/cmake-build-debug/CMakeFiles/rebuild_cache.dir

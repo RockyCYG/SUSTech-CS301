@@ -1,0 +1,8 @@
+../Core/Src/rtc.c:100:4:Is_Leap_Year	3
+../Core/Src/rtc.c:177:4:RTC_Alarm_Set	8
+../Core/Src/rtc.c:266:4:RTC_Get_Week	4
+../Core/Src/rtc.c:211:4:RTC_Get	10
+../Core/Src/rtc.c:76:6:RTC_IRQHandler	3
+../Core/Src/rtc.c:123:4:RTC_Set	8
+../Core/Src/rtc.c:28:4:RTC_Init	3
+../Core/Src/rtc.c:282:6:RTC_LCD_ShowWeek	8

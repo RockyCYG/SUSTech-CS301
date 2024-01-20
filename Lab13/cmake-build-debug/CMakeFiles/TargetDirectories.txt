@@ -1,0 +1,3 @@
+D:/project/CS301/Lab13/cmake-build-debug/CMakeFiles/Lab13.elf.dir
+D:/project/CS301/Lab13/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/project/CS301/Lab13/cmake-build-debug/CMakeFiles/rebuild_cache.dir

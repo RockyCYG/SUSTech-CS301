@@ -1,0 +1,3 @@
+D:/project/CS301/lab1/embedded_system/demo_for_lab/cmake-build-debug/CMakeFiles/demo_for_lab.elf.dir
+D:/project/CS301/lab1/embedded_system/demo_for_lab/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/project/CS301/lab1/embedded_system/demo_for_lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir

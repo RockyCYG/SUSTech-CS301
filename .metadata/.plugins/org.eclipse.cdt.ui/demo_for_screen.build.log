@@ -1,0 +1,405 @@
+17:33:12 **** Incremental Build of configuration Debug for project demo_for_screen ****
+make -j20 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/24cxx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/24cxx.d" -MT"Core/Src/24cxx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/24cxx.o"
+arm-none-eabi-gcc "../Core/Src/24l01.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/24l01.d" -MT"Core/Src/24l01.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/24l01.o"
+arm-none-eabi-gcc "../Core/Src/ctiic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ctiic.d" -MT"Core/Src/ctiic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ctiic.o"
+arm-none-eabi-gcc "../Core/Src/delay.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/delay.d" -MT"Core/Src/delay.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/delay.o"
+arm-none-eabi-gcc "../Core/Src/ft5206.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ft5206.d" -MT"Core/Src/ft5206.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ft5206.o"
+../Core/Src/ft5206.c: In function 'FT5206_Init':
+../Core/Src/ft5206.c:100:17: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  100 |                 printf("CTP ID:%x\r\n",((u16)temp[0]<<8)+temp[1]);
+      |                 ^~~~~~
+../Core/Src/ft5206.c:7:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    6 | #include "string.h"
+  +++ |+#include <stdio.h>
+    7 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/ft5206.c:100:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  100 |                 printf("CTP ID:%x\r\n",((u16)temp[0]<<8)+temp[1]);
+      |                 ^~~~~~
+../Core/Src/ft5206.c:100:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc "../Core/Src/gt9147.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gt9147.d" -MT"Core/Src/gt9147.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gt9147.o"
+arm-none-eabi-gcc "../Core/Src/key.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/key.d" -MT"Core/Src/key.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/key.o"
+arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/lcd.o"
+arm-none-eabi-gcc "../Core/Src/led.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/led.d" -MT"Core/Src/led.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/led.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/myiic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myiic.d" -MT"Core/Src/myiic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/myiic.o"
+arm-none-eabi-gcc "../Core/Src/ott2001a.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ott2001a.d" -MT"Core/Src/ott2001a.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ott2001a.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/sys.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sys.d" -MT"Core/Src/sys.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sys.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../Core/Src/touch.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/touch.d" -MT"Core/Src/touch.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/touch.o"
+../Core/Src/ott2001a.c: In function 'OTT2001A_Init':
+../Core/Src/ott2001a.c:104:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  104 |         printf("CTP ID:%x\r\n",regval);
+      |         ^~~~~~
+../Core/Src/ott2001a.c:6:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    5 | #include "delay.h"
+  +++ |+#include <stdio.h>
+    6 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/ott2001a.c:104:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  104 |         printf("CTP ID:%x\r\n",regval);
+      |         ^~~~~~
+../Core/Src/ott2001a.c:104:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/gt9147.c: In function 'GT9147_Init':
+../Core/Src/gt9147.c:147:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  147 |         printf("CTP ID:%s\r\n",temp);           //��ӡID
+      |         ^~~~~~
+../Core/Src/gt9147.c:8:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    7 | #include "lcd.h"
+  +++ |+#include <stdio.h>
+    8 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/gt9147.c:147:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  147 |         printf("CTP ID:%s\r\n",temp);           //��ӡID
+      |         ^~~~~~
+../Core/Src/gt9147.c:147:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/lcd.c: In function 'LCD_Init':
+../Core/Src/lcd.c:700:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  700 |     printf(" LCD ID:%x\r\n", lcddev.id); //��ӡLCD ID
+      |     ^~~~~~
+../Core/Src/lcd.c:6:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    5 | #include "delay.h"
+  +++ |+#include <stdio.h>
+    6 | #include "stm32f1xx_hal.h"
+../Core/Src/lcd.c:700:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  700 |     printf(" LCD ID:%x\r\n", lcddev.id); //��ӡLCD ID
+      |     ^~~~~~
+../Core/Src/lcd.c:700:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/lcd.c: In function 'LCD_ShowImage':
+../Core/Src/lcd.c:2363:23: warning: unused variable 't1' [-Wunused-variable]
+ 2363 |         uint8_t temp, t1, t, k;
+      |                       ^~
+../Core/Src/lcd.c: In function 'LCD_ShowEndImage':
+../Core/Src/lcd.c:2422:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 2422 |         uint8_t *pic = endpicture;
+      |                        ^~~~~~~~~~
+../Core/Src/lcd.c: In function 'LCD_ShowInputWrongImage':
+../Core/Src/lcd.c:2452:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 2452 |         uint8_t *pic = InputWrongPicture;
+      |                        ^~~~~~~~~~~~~~~~~
+../Core/Src/touch.c:21:1: warning: missing braces around initializer [-Wmissing-braces]
+   21 | {
+      | ^
+......
+   25 |         0,
+      |         {
+......
+   29 |         0,
+      |          }
+   30 |         0,
+      |         {
+......
+   33 | };
+      | }
+../Core/Src/touch.c:249:29: warning: pointer targets in initialization of 'u8 * const' {aka 'unsigned char * const'} from 'char *' differ in signedness [-Wpointer-sign]
+  249 | u8* const TP_REMIND_MSG_TBL="Please use the stylus click the cross on the screen.The cross will always move until the screen adjustment is completed.";
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/touch.c: In function 'TP_Adj_Info_Show':
+../Core/Src/touch.c:255:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  255 |         LCD_ShowString(40,160,lcddev.width,lcddev.height,16,"x1:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:256:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  256 |         LCD_ShowString(40+80,160,lcddev.width,lcddev.height,16,"y1:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:257:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  257 |         LCD_ShowString(40,180,lcddev.width,lcddev.height,16,"x2:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:258:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  258 |         LCD_ShowString(40+80,180,lcddev.width,lcddev.height,16,"y2:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:259:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  259 |         LCD_ShowString(40,200,lcddev.width,lcddev.height,16,"x3:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:260:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  260 |         LCD_ShowString(40+80,200,lcddev.width,lcddev.height,16,"y3:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:261:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  261 |         LCD_ShowString(40,220,lcddev.width,lcddev.height,16,"x4:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:262:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  262 |         LCD_ShowString(40+80,220,lcddev.width,lcddev.height,16,"y4:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:263:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  263 |         LCD_ShowString(40,240,lcddev.width,lcddev.height,16,"fac is:");
+      |                                                             ^~~~~~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c: In function 'TP_Adjust':
+../Core/Src/touch.c:397:100: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  397 |                                                 LCD_ShowString(40,26,lcddev.width,lcddev.height,16,"TP Need readjust!");
+      |                                                                                                    ^~~~~~~~~~~~~~~~~~~
+      |                                                                                                    |
+      |                                                                                                    char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/touch.c:412:93: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  412 |                                         LCD_ShowString(35,110,lcddev.width,lcddev.height,16,"Touch Screen Adjust OK!");//У�����?
+      |                                                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                             |
+      |                                                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'Load_Drow_Dialog':
+../Core/Src/main.c:7264:52: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7264 |         LCD_ShowString(lcddev.width-24,0,200,16,16,"RST");//显示清屏区域
+      |                                                    ^~~~~
+      |                                                    |
+      |                                                    char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'screen_print':
+../Core/Src/main.c:7321:52: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7321 |         LCD_ShowString(lcddev.width-24,0,200,16,16,"RST");//显示清屏区域
+      |                                                    ^~~~~
+      |                                                    |
+      |                                                    char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:7322:39: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7322 |         LCD_ShowString(0,0,200,24,24, "SHOW PICTURE");
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:7323:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7323 |         LCD_ShowString(60,60,200,24,24, "SEND MESSAGE");
+      |                                         ^~~~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'screen_norm_print':
+../Core/Src/main.c:7333:52: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7333 |         LCD_ShowString(lcddev.width-24,0,200,16,16,"RST");//显示清屏区域
+      |                                                    ^~~~~
+      |                                                    |
+      |                                                    char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:7334:39: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7334 |         LCD_ShowString(0,0,200,24,24, "SHOW PICTURE");
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:7335:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7335 |         LCD_ShowString(60,60,200,24,24, "SEND MESSAGE");
+      |                                         ^~~~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c: In function 'change_state':
+../Core/Src/main.c:7344:17: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+ 7344 |                 sprintf(STATE, "STATE: ON");
+      |                 ^~~~~~~
+../Core/Src/main.c:37:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   36 | #include "24l01.h" //通信驱动 基于spi进行通信
+  +++ |+#include <stdio.h>
+   37 | //#include "remote.h" 红外遥控驱动
+../Core/Src/main.c:7344:17: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 7344 |                 sprintf(STATE, "STATE: ON");
+      |                 ^~~~~~~
+../Core/Src/main.c:7344:17: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:7344:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+ 7344 |                 sprintf(STATE, "STATE: ON");
+      |                         ^~~~~
+      |                         |
+      |                         u8 * {aka unsigned char *}
+../Core/Src/main.c:7344:25: note: expected 'char *' but argument is of type 'u8 *' {aka 'unsigned char *'}
+../Core/Src/main.c:7347:17: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 7347 |                 sprintf(STATE, "STATE: OFF");
+      |                 ^~~~~~~
+../Core/Src/main.c:7347:17: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:7347:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+ 7347 |                 sprintf(STATE, "STATE: OFF");
+      |                         ^~~~~
+      |                         |
+      |                         u8 * {aka unsigned char *}
+../Core/Src/main.c:7347:25: note: expected 'char *' but argument is of type 'u8 *' {aka 'unsigned char *'}
+../Core/Src/main.c: In function 'rtp_test':
+../Core/Src/main.c:7407:41: warning: implicit declaration of function 'LCD_ShowImage2'; did you mean 'LCD_ShowChar'? [-Wimplicit-function-declaration]
+ 7407 |                                         LCD_ShowImage2(40,80);
+      |                                         ^~~~~~~~~~~~~~
+      |                                         LCD_ShowChar
+../Core/Src/main.c:7410:41: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 7410 |                                         sprintf(DATA_TO_SEND, "SEND DATA");
+      |                                         ^~~~~~~
+../Core/Src/main.c:7410:41: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:7410:49: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+ 7410 |                                         sprintf(DATA_TO_SEND, "SEND DATA");
+      |                                                 ^~~~~~~~~~~~
+      |                                                 |
+      |                                                 unsigned char *
+../Core/Src/main.c:7410:49: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:7411:92: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+ 7411 |                                         HAL_UART_Transmit(&huart1, (uint8_t*)DATA_TO_SEND, strlen(DATA_TO_SEND), HAL_MAX_DELAY);
+      |                                                                                            ^~~~~~
+../Core/Src/main.c:37:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   36 | #include "24l01.h" //通信驱动 基于spi进行通信
+  +++ |+#include <string.h>
+   37 | //#include "remote.h" 红外遥控驱动
+../Core/Src/main.c:7411:92: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+ 7411 |                                         HAL_UART_Transmit(&huart1, (uint8_t*)DATA_TO_SEND, strlen(DATA_TO_SEND), HAL_MAX_DELAY);
+      |                                                                                            ^~~~~~
+../Core/Src/main.c:7411:92: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:7411:99: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+ 7411 |                                         HAL_UART_Transmit(&huart1, (uint8_t*)DATA_TO_SEND, strlen(DATA_TO_SEND), HAL_MAX_DELAY);
+      |                                                                                                   ^~~~~~~~~~~~
+      |                                                                                                   |
+      |                                                                                                   unsigned char *
+../Core/Src/main.c:7411:99: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:7534:40: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7534 |         LCD_ShowString(30,50,200,16,16,"Mini STM32");
+      |                                        ^~~~~~~~~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:7535:40: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7535 |         LCD_ShowString(30,70,200,16,16,"TOUCH TEST");
+      |                                        ^~~~~~~~~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:7536:40: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7536 |         LCD_ShowString(30,90,200,16,16,"ATOM@ALIENTEK");
+      |                                        ^~~~~~~~~~~~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:7537:41: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7537 |         LCD_ShowString(30,110,200,16,16,"2019/11/15");
+      |                                         ^~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+../Core/Src/main.c:7540:49: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+ 7540 |                 LCD_ShowString(30,130,200,16,16,"Press KEY0 to Adjust");//电阻屏才显示
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~
+      |                                                 |
+      |                                                 char *
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //��ʾһ���ַ���,12/16����
+      |                                                                   ~~~~^
+arm-none-eabi-gcc -o "demo_for_screen.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\project\CS301\demo_for_screen\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="demo_for_screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: demo_for_screen.elf
+ 
+arm-none-eabi-size   demo_for_screen.elf 
+arm-none-eabi-objdump -h -S  demo_for_screen.elf  > "demo_for_screen.list"
+arm-none-eabi-objcopy  -O ihex  demo_for_screen.elf  "demo_for_screen.hex"
+arm-none-eabi-objcopy  -O binary  demo_for_screen.elf  "demo_for_screen.bin"
+   text	   data	    bss	    dec	    hex	filename
+ 191336	    192	   2928	 194456	  2f798	demo_for_screen.elf
+Finished building: default.size.stdout
+ 
+Finished building: demo_for_screen.hex
+Finished building: demo_for_screen.bin
+ 
+ 
+Finished building: demo_for_screen.list
+ 
+
+17:33:13 Build Finished. 0 errors, 47 warnings. (took 1s.725ms)
+

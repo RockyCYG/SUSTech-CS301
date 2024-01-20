@@ -1,0 +1,316 @@
+17:29:13 **** Incremental Build of configuration Debug for project Lab12 ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "Lab12.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\project\CS301\Lab12\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab12.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab12.elf
+ 
+arm-none-eabi-size   Lab12.elf 
+arm-none-eabi-objdump -h -S  Lab12.elf  > "Lab12.list"
+arm-none-eabi-objcopy  -O ihex  Lab12.elf  "Lab12.hex"
+arm-none-eabi-objcopy  -O binary  Lab12.elf  "Lab12.bin"
+   text	   data	    bss	    dec	    hex	filename
+  41984	     24	   2712	  44720	   aeb0	Lab12.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab12.hex
+ 
+Finished building: Lab12.bin
+ 
+Finished building: Lab12.list
+ 
+10:52:52 **** Build of configuration Debug for project CS301_Project ****
+make -j20 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103rctx.d" -MT"Core/Startup/startup_stm32f103rctx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103rctx.o" "../Core/Startup/startup_stm32f103rctx.s"
+arm-none-eabi-gcc "../Core/Src/24cxx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/24cxx.d" -MT"Core/Src/24cxx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/24cxx.o"
+arm-none-eabi-gcc "../Core/Src/24l01.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/24l01.d" -MT"Core/Src/24l01.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/24l01.o"
+arm-none-eabi-gcc "../Core/Src/cal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/cal.d" -MT"Core/Src/cal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/cal.o"
+arm-none-eabi-gcc "../Core/Src/ctiic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ctiic.d" -MT"Core/Src/ctiic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ctiic.o"
+arm-none-eabi-gcc "../Core/Src/delay.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/delay.d" -MT"Core/Src/delay.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/delay.o"
+arm-none-eabi-gcc "../Core/Src/ft5206.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ft5206.d" -MT"Core/Src/ft5206.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ft5206.o"
+In file included from ../Core/Inc/cal.h:6,
+                 from ../Core/Src/cal.c:1:
+../Core/Src/cal.c: In function 'evaluateExpression':
+../Core/Src/cal.c:93:38: warning: array subscript has type 'char' [-Wchar-subscripts]
+   93 |         } else if (isdigit(expression[i])) {
+      |                            ~~~~~~~~~~^~~
+../Core/Src/cal.c:95:38: warning: array subscript has type 'char' [-Wchar-subscripts]
+   95 |             while (isdigit(expression[i])) {
+      |                            ~~~~~~~~~~^~~
+../Core/Src/cal.c: In function 'CAL_LCD_Callback':
+../Core/Src/cal.c:209:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  209 |             LCD_ShowString(10, 10, 240, 240, 16, expression);
+      |                                                  ^~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Inc/cal.h:3,
+                 from ../Core/Src/cal.c:1:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/cal.c:223:54: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  223 |                 LCD_ShowString(10, 40, 240, 240, 16, res);
+      |                                                      ^~~
+      |                                                      |
+      |                                                      char *
+In file included from ../Core/Inc/cal.h:3,
+                 from ../Core/Src/cal.c:1:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/cal.c:229:50: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  229 |             LCD_ShowString(10, 10, 240, 240, 16, expression);
+      |                                                  ^~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+In file included from ../Core/Inc/cal.h:3,
+                 from ../Core/Src/cal.c:1:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/gt9147.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gt9147.d" -MT"Core/Src/gt9147.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gt9147.o"
+arm-none-eabi-gcc "../Core/Src/key.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/key.d" -MT"Core/Src/key.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/key.o"
+arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/lcd.o"
+arm-none-eabi-gcc "../Core/Src/led.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/led.d" -MT"Core/Src/led.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/led.o"
+../Core/Src/ft5206.c: In function 'FT5206_Init':
+../Core/Src/ft5206.c:100:17: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+  100 |                 printf("CTP ID:%x\r\n",((u16)temp[0]<<8)+temp[1]);
+      |                 ^~~~~~
+../Core/Src/ft5206.c:7:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    6 | #include "string.h"
+  +++ |+#include <stdio.h>
+    7 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/ft5206.c:100:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  100 |                 printf("CTP ID:%x\r\n",((u16)temp[0]<<8)+temp[1]);
+      |                 ^~~~~~
+../Core/Src/ft5206.c:100:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc "../Core/Src/myiic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myiic.d" -MT"Core/Src/myiic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/myiic.o"
+arm-none-eabi-gcc "../Core/Src/ott2001a.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ott2001a.d" -MT"Core/Src/ott2001a.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ott2001a.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/sys.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sys.d" -MT"Core/Src/sys.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sys.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../Core/Src/touch.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/touch.d" -MT"Core/Src/touch.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/touch.o"
+../Core/Src/gt9147.c: In function 'GT9147_Init':
+../Core/Src/gt9147.c:147:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  147 |         printf("CTP ID:%s\r\n",temp);           //ï¿½ï¿½Ó¡ID
+      |         ^~~~~~
+../Core/Src/gt9147.c:8:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    7 | #include "lcd.h"
+  +++ |+#include <stdio.h>
+    8 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/gt9147.c:147:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  147 |         printf("CTP ID:%s\r\n",temp);           //ï¿½ï¿½Ó¡ID
+      |         ^~~~~~
+../Core/Src/gt9147.c:147:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/ott2001a.c: In function 'OTT2001A_Init':
+../Core/Src/ott2001a.c:104:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  104 |         printf("CTP ID:%x\r\n",regval);
+      |         ^~~~~~
+../Core/Src/ott2001a.c:6:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    5 | #include "delay.h"
+  +++ |+#include <stdio.h>
+    6 | //////////////////////////////////////////////////////////////////////////////////
+../Core/Src/ott2001a.c:104:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  104 |         printf("CTP ID:%x\r\n",regval);
+      |         ^~~~~~
+../Core/Src/ott2001a.c:104:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/touch.c:21:1: warning: missing braces around initializer [-Wmissing-braces]
+   21 | {
+      | ^
+......
+   25 |         0,
+      |         {
+......
+   29 |         0,
+      |          }
+   30 |         0,
+      |         {
+......
+   33 | };
+      | }
+../Core/Src/touch.c:249:29: warning: pointer targets in initialization of 'u8 * const' {aka 'unsigned char * const'} from 'char *' differ in signedness [-Wpointer-sign]
+  249 | u8* const TP_REMIND_MSG_TBL="Please use the stylus click the cross on the screen.The cross will always move until the screen adjustment is completed.";
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/touch.c: In function 'TP_Adj_Info_Show':
+../Core/Src/touch.c:255:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  255 |         LCD_ShowString(40,160,lcddev.width,lcddev.height,16,"x1:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/touch.c:256:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  256 |         LCD_ShowString(40+80,160,lcddev.width,lcddev.height,16,"y1:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/touch.c:257:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  257 |         LCD_ShowString(40,180,lcddev.width,lcddev.height,16,"x2:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/touch.c:258:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  258 |         LCD_ShowString(40+80,180,lcddev.width,lcddev.height,16,"y2:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/touch.c:259:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  259 |         LCD_ShowString(40,200,lcddev.width,lcddev.height,16,"x3:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/lcd.c: In function 'LCD_Init':
+../Core/Src/touch.c:260:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  260 |         LCD_ShowString(40+80,200,lcddev.width,lcddev.height,16,"y3:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+../Core/Src/lcd.c:700:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  700 |     printf(" LCD ID:%x\r\n", lcddev.id); //ï¿½ï¿½Ó¡LCD ID
+      |     ^~~~~~
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/lcd.c:6:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    5 | #include "delay.h"
+  +++ |+#include <stdio.h>
+    6 | #include "stm32f1xx_hal.h"
+../Core/Src/touch.c:261:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  261 |         LCD_ShowString(40,220,lcddev.width,lcddev.height,16,"x4:");
+      |                                                             ^~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/lcd.c:700:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  700 |     printf(" LCD ID:%x\r\n", lcddev.id); //ï¿½ï¿½Ó¡LCD ID
+      |     ^~~~~~
+../Core/Src/lcd.c:700:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/touch.c:262:64: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  262 |         LCD_ShowString(40+80,220,lcddev.width,lcddev.height,16,"y4:");
+      |                                                                ^~~~~
+      |                                                                |
+      |                                                                char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/touch.c:263:61: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  263 |         LCD_ShowString(40,240,lcddev.width,lcddev.height,16,"fac is:");
+      |                                                             ^~~~~~~~~
+      |                                                             |
+      |                                                             char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/touch.c: In function 'TP_Adjust':
+../Core/Src/touch.c:397:100: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  397 |                                                 LCD_ShowString(40,26,lcddev.width,lcddev.height,16,"TP Need readjust!");
+      |                                                                                                    ^~~~~~~~~~~~~~~~~~~
+      |                                                                                                    |
+      |                                                                                                    char *
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/touch.c:412:93: warning: pointer targets in passing argument 6 of 'LCD_ShowString' differ in signedness [-Wpointer-sign]
+  412 |                                         LCD_ShowString(35,110,lcddev.width,lcddev.height,16,"Touch Screen Adjust OK!");//Ð£ï¿½ï¿½ï¿½ï¿½ï¿?
+      |                                                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                             |
+      |                                                                                             char *
+../Core/Src/lcd.c: In function 'LCD_ShowImage':
+In file included from ../Core/Src/touch.c:2:
+../Core/Inc/lcd.h:134:71: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  134 | void LCD_ShowString(u16 x, u16 y, u16 width, u16 height, u8 size, u8 *p);   //ÏÔÊ¾Ò»¸ö×Ö·û´®,12/16×ÖÌå
+      |                                                                   ~~~~^
+../Core/Src/lcd.c:2363:23: warning: unused variable 't1' [-Wunused-variable]
+ 2363 |         uint8_t temp, t1, t, k;
+      |                       ^~
+../Core/Src/lcd.c: In function 'LCD_ShowEndImage':
+../Core/Src/lcd.c:2422:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 2422 |         uint8_t *pic = endpicture;
+      |                        ^~~~~~~~~~
+../Core/Src/lcd.c: In function 'LCD_ShowInputWrongImage':
+../Core/Src/lcd.c:2452:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 2452 |         uint8_t *pic = InputWrongPicture;
+      |                        ^~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CS301_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\project\CS301\CS301_Project\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CS301_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CS301_Project.elf
+ 
+arm-none-eabi-size   CS301_Project.elf 
+arm-none-eabi-objdump -h -S  CS301_Project.elf  > "CS301_Project.list"
+   text	   data	    bss	    dec	    hex	filename
+  55352	    344	   3160	  58856	   e5e8	CS301_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: CS301_Project.list
+ 
+10:53:41 **** Incremental Build of configuration Debug for project CS301_Project ****
+make -j20 all 
+arm-none-eabi-size   CS301_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+  55352	    344	   3160	  58856	   e5e8	CS301_Project.elf
+Finished building: default.size.stdout
+ 
+10:54:20 **** Incremental Build of configuration Debug for project CS301_Project ****
+make -j20 all 
+arm-none-eabi-size   CS301_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+  55352	    344	   3160	  58856	   e5e8	CS301_Project.elf
+Finished building: default.size.stdout
+ 
+10:55:04 **** Incremental Build of configuration Debug for project CS301_Project ****
+make -j20 all 
+arm-none-eabi-size   CS301_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+  55352	    344	   3160	  58856	   e5e8	CS301_Project.elf
+Finished building: default.size.stdout
+ 
+10:55:41 **** Incremental Build of configuration Debug for project CS301_Project ****
+make -j20 all 
+arm-none-eabi-size   CS301_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+  55352	    344	   3160	  58856	   e5e8	CS301_Project.elf
+Finished building: default.size.stdout
+ 
